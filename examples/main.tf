@@ -1,6 +1,9 @@
 module "testns" {
-  source = "../"
-  name   = "testns"
+  source    = "../"
+  name      = "testns"
+  cpu       = "2096m"
+  memory    = "4Gi"
+  pod_quota = 50
   annotations = {
     new = "application"
   }
