@@ -3,8 +3,15 @@
 ### PLease copy paste below code
 
 ```
-module namespace {
+module "testns" {
     source = "Adnan-IT/namespace/kubernetes"
+    name   = "testns"
+    annotations = {
+    new = "application"
+  }
+  labels = {
+    createdby = "Adnan-IT"
+  }
 }
 ```
 
