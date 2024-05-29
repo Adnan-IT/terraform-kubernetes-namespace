@@ -6,4 +6,4 @@ v:
 
 destroy:
 	
-	terraform init && terraform destoy -auto-approve
+	terraform init && terraform destoy -auto-approve 
